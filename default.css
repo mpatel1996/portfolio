@@ -4,8 +4,8 @@
 
   --borderColor: #c1c1c1;
 
-  --mainText: black;
-  --secondaryText: #4b5156;
+  --mainText: #0a2744;
+  --secondaryText: #2a506e;
 
   --themeDotBorder: #24292e;
 
@@ -257,8 +257,8 @@ textarea {
 .about-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   gap: 100px;
 }
 
@@ -362,6 +362,7 @@ textarea {
   color: #fff;
   background-color: var(--buttonColor);
   border: none;
+  border-radius: 5px;
 }
 
 #settings-note {

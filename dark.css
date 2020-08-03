@@ -15,6 +15,10 @@
   --buttonColor: #17a2b8;
 }
 
+#post-title-text {
+  color: #15202b;
+}
+
 .post-title {
   color: white;
   padding: 5px;
