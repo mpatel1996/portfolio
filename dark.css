@@ -25,6 +25,11 @@
   margin: 0;
 }
 
+.contact-box {
+  background-color: var(--previewShadow);
+  padding: 15px;
+}
+
 #social_img {
   height: 200px;
   width: 200px;

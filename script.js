@@ -1,4 +1,3 @@
-console.log("It Works");
 let theme = localStorage.getItem("theme");
 
 if (theme == null) {

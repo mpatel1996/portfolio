@@ -19,7 +19,9 @@ html,
 body {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
+
 body * {
   transition: 0.3s;
 }
@@ -41,24 +43,31 @@ a {
   text-decoration: none;
   color: #17a2b8;
 }
+
 ul {
   list-style: none;
 }
+
 h1 {
   font-size: 56px;
 }
+
 h2 {
   font-size: 36px;
 }
+
 h3 {
   font-size: 28px;
 }
+
 h4 {
   font-size: 24px;
 }
+
 h5 {
   font-size: 20px;
 }
+
 h6 {
   font-size: 16px;
 }
@@ -92,8 +101,10 @@ textarea {
 
 .greeting-wrapper {
   display: grid;
-  justify-content: center; /* for x direction */
-  align-content: center; /* for y direction */
+  justify-content: center;
+  /* for x direction */
+  align-content: center;
+  /* for y direction */
   min-height: 10em;
 }
 
@@ -128,10 +139,12 @@ textarea {
 #navigation a {
   color: var(--mainText);
 }
+
 #navigation {
   margin: 0;
   padding: 10px;
 }
+
 .dots-wrapper {
   display: flex;
   padding: 10px;
@@ -144,6 +157,7 @@ textarea {
 #dot2 {
   background-color: #fec02f;
 }
+
 #dot3 {
   background-color: #2aca3e;
 }
@@ -171,7 +185,8 @@ textarea {
   margin: 0 auto;
   height: 200px;
   width: 200px;
-  object-fit: contain; /*wont distord the image if its too large*/
+  object-fit: contain;
+  /*wont distord the image if its too large*/
   /* border: 2px solid var(--borderColor); */
 }
 
@@ -186,7 +201,7 @@ textarea {
   background-color: black;
   border-radius: 50%;
 
-  margin: 5px;
+  margin: 15px;
   border: 2px solid var(--themeDotBorder);
   -webkit-box-shadow: -8px 11px 6px -7px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -8px 11px 6px -7px rgba(0, 0, 0, 0.75);
@@ -215,6 +230,7 @@ textarea {
   padding-top: 50px;
   padding-bottom: 80px;
 }
+
 #preview-shadow {
   background-color: var(--previewShadow);
   width: 300px;
@@ -222,6 +238,7 @@ textarea {
   padding-left: 20px;
   padding-top: 30px;
 }
+
 #preview {
   width: 300px;
   border: 1.5px solid #17a2b8;
@@ -229,22 +246,27 @@ textarea {
   padding: 15px;
   position: relative;
 }
+
 #corner-tl {
   top: -5px;
   left: -5px;
 }
+
 #corner-tr {
   top: -5px;
   right: -5px;
 }
+
 #corner-bl {
   bottom: -5px;
   left: -5px;
 }
+
 #corner-br {
   bottom: -5px;
   right: -5px;
 }
+
 .corner {
   width: 7px;
   height: 7px;
@@ -283,7 +305,7 @@ textarea {
 }
 
 .social-header {
-  padding-bottom: 25px;
+  padding: 25px;
 }
 
 .post-wrapper {
@@ -303,6 +325,12 @@ textarea {
 
 .post-preview {
   background-color: #fff;
+  color: var(--mainText);
+  padding: 15px;
+}
+
+.contact-box {
+  background-color: #f0ead6;
   padding: 15px;
 }
 
@@ -313,15 +341,17 @@ textarea {
 }
 
 .post-intro {
+  height: 160px;
   color: #4b5156;
   font-size: 14px;
+  overflow: auto;
 }
 
 .thumbnail {
   display: block;
   width: 100%;
   height: 180px;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 
 #contact-form {
@@ -379,7 +409,8 @@ textarea {
 
 @media screen and (max-width: 800px) {
   .intro-wrapper {
-    grid-template-columns: 1fr; /* grid-template-rows: 3em 30em; */
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 3em 30em; */
     grid-template-areas:
       "nav-wrapper"
       "left-col"
