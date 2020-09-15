@@ -222,6 +222,12 @@ textarea {
 	background-color: #192734;
 }
 
+#settings-note {
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+}
+
 .right-col {
 	grid-area: right-col;
 	display: grid;
