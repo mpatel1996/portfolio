@@ -1,47 +1,47 @@
 :root {
-  --mainColor: #15202b;
-  --secondaryColor: #192734;
+	--mainColor: #15202b;
+	--secondaryColor: #192734;
 
-  --borderColor: #164d56;
+	--borderColor: #164d56;
 
-  --mainText: #fff;
-  --secondaryText: #eeeeee;
+	--mainText: #fff;
+	--secondaryText: #eeeeee;
 
-  --themeDotBorder: #fff;
+	--themeDotBorder: #fff;
 
-  --previewBg: rgb(25, 39, 52, 0.8);
-  --previewShadow: #111921;
+	--previewBg: rgb(25, 39, 52, 0.8);
+	--previewShadow: #111921;
 
-  --buttonColor: #17a2b8;
+	--buttonColor: #17a2b8;
 }
 
 #post-title-text {
-  color: #15202b;
+	color: #15202b;
 }
 
 .post-title {
-  color: white;
-  padding: 5px;
-  margin: 0;
+	color: white;
+	padding: 5px;
+	margin: 0;
 }
 
-.contact-box {
-  background-color: var(--previewShadow);
-  padding: 15px;
+.email-box {
+	background-color: var(--previewShadow);
+	padding: 15px;
 }
 
 #social_img {
-  height: 200px;
-  width: 200px;
-  filter: invert(100%);
-  -webkit-filter: invert(100%);
-  object-fit: contain;
+	height: 200px;
+	width: 200px;
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+	object-fit: contain;
 }
 
 .social-links {
-  display: flex;
-  justify-content: center;
-  padding-right: 10px;
-  column-gap: 50px;
-  text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-right: 10px;
+	column-gap: 50px;
+	text-align: center;
 }

@@ -25,7 +25,11 @@
 
 	<body>
 		<section class="s1">
-			<div class="main-container" style="padding-bottom: 25px">
+			<div
+				style="min-height: 100vh"
+				class="main-container"
+				style="padding-bottom: 25px"
+			>
 				<div class="greeting-wrapper">
 					<h1>Hi, I'm Mihir Patel</h1>
 				</div>
@@ -39,7 +43,15 @@
 						</div>
 						<ul id="navigation">
 							<li>
-								<a href="#contact-me">Contact</a>
+								<a style="padding-left: 15px" href="#about-me">
+									About-Me
+								</a>
+								<a style="padding-left: 15px" href="#my-projects">
+									Projects
+								</a>
+								<a style="padding-left: 15px" href="#contact-me">
+									Contact
+								</a>
 							</li>
 						</ul>
 					</div>
@@ -96,7 +108,7 @@
 			</div>
 
 			<hr />
-			<div class="main-container">
+			<div style="min-height: 100vh" id="about-me" class="main-container">
 				<div class="about-wrapper">
 					<div class="about-me">
 						<h3 style="text-align: center">More About Me</h3>
@@ -134,15 +146,13 @@
 							</ul>
 						</div>
 						<p style="text-align: center; font-size: 24px">
-							<a target="_blank" href="Resume_Mihir.pdf"
-								>Download Resume</a
-							>
+							<a target="_blank" href="Resume_Mihir.pdf">Download </a>
 						</p>
 					</div>
 				</div>
 			</div>
 			<hr />
-			<div class="main-container">
+			<div style="min-height: 100vh" id="my-projects" class="main-container">
 				<h3 style="text-align: center">Some of my past projects</h3>
 
 				<div class="post-wrapper">
@@ -151,8 +161,9 @@
 							<a
 								target="_blank"
 								href="https://play.google.com/store/apps/details?id=com.polytransfer.ptconnect&hl=en_US"
-								><img class="thumbnail" src="images/PT_connect.png"
-							/></a>
+							>
+								<img class="thumbnail" src="images/PT_connect.png" />
+							</a>
 							<div class="post-preview">
 								<h6 id="post-title-text" class="post-title">
 									PolyTransfer Connect
@@ -169,14 +180,16 @@
 							</div>
 						</div>
 					</div>
+					<!-- End of card post  -->
 
 					<div>
 						<div class="post">
 							<a
 								target="_blank"
 								href="https://www.youtube.com/watch?v=Tv1DGACwy1U&feature=youtu.be"
-								><img class="thumbnail" src="images/TS_Logo.png"
-							/></a>
+							>
+								<img class="thumbnail" src="images/TS_Logo.png" />
+							</a>
 							<div class="post-preview">
 								<h6 id="post-title-text" class="post-title">
 									TheShuffling
@@ -197,6 +210,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- End of card post  -->
 
 					<div>
 						<div class="post">
@@ -205,7 +219,8 @@
 									class="thumbnail"
 									style="object-fit: cover"
 									src="images/TypingGame.png"
-							/></a>
+								/>
+							</a>
 							<div class="post-preview">
 								<h6 id="post-title-text" class="post-title">
 									JS Typing Game
@@ -220,37 +235,41 @@
 							</div>
 						</div>
 					</div>
+					<!-- End of card post  -->
 				</div>
 			</div>
 
 			<hr />
 			<section id="contact-me">
-				<div style="height: auto" class="main-container">
+				<div style="min-height: 100vh; margin: auto" class="main-container">
 					<h3 style="text-align: center">Get In Touch</h3>
 
-					<a href="mailto: patel111m@gmail.com">
-						<div class="contact-box">
-							<h4 style="text-align: center">SEND EMAIL</h4>
-						</div>
-					</a>
+					<div class="contact-info">
+						<a href="mailto: patel111m@gmail.com">
+							<div class="email-box">
+								<h4 style="text-align: center">SEND EMAIL</h4>
+							</div>
+						</a>
 
-					<div class="social-header">
-						<div class="social-links">
-							<a
-								target="_blank"
-								href="https://www.linkedin.com/in/mihir1996/"
-								><img id="social_img" src="images/linkedin.png"
-							/></a>
-							<br />
+						<div class="social-header">
+							<div class="social-links">
+								<a
+									target="_blank"
+									href="https://www.linkedin.com/in/mihir1996/"
+									><img id="social_img" src="images/linkedin.png" />
+								</a>
+								<br />
 
-							<a target="_blank" href="https://github.com/mpatel1996/"
-								><img id="social_img" src="images/github.png"
-							/></a>
+								<a target="_blank" href="https://github.com/mpatel1996/"
+									><img id="social_img" src="images/github.png" />
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 		</section>
+
 		<script type="text/javascript" src="script.js"></script>
 	</body>
 </html>
