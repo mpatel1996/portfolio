@@ -299,9 +299,13 @@ textarea {
 	width: 200px;
 	object-fit: contain;
 }
+.resume-dwn {
+	text-align: center;
+	font-size: 26px;
+}
 
 .social-links {
-	display: grid;
+	display: flex;
 	justify-content: center;
 	padding-right: 10px;
 	column-gap: 50px;
@@ -340,6 +344,7 @@ textarea {
 .email-box {
 	background-color: var(--previewShadow);
 	padding: 15px;
+	font-size: 28px;
 }
 
 .contact-info {
@@ -370,6 +375,10 @@ textarea {
 @media screen and (max-width: 1200px) {
 	.main-container {
 		width: 95%;
+	}
+
+	.email-box {
+		font-size: 22px;
 	}
 }
 
@@ -422,6 +431,10 @@ textarea {
 		justify-content: center;
 	}
 
+	.resume-dwn {
+		font-size: 22px;
+	}
+
 	.social-links {
 		display: grid;
 		justify-content: center;
@@ -430,12 +443,15 @@ textarea {
 
 		grid-template-columns: 1fr;
 		/* grid-template-rows: 3em 30em; */
-		grid-template-areas: "social-img";
+		grid-template-areas: "social-img" "social-img";
 	}
 	.social-links #social_img {
-		height: 100px;
-		width: 100px;
+		height: 200px;
+		width: 200px;
 		object-fit: contain;
+	}
+	.email-box {
+		font-size: 22px;
 	}
 }
 
@@ -488,5 +504,13 @@ textarea {
 
 	#preview {
 		width: 280px;
+	}
+
+	.email-box {
+		font-size: 18px;
+	}
+
+	.resume-dwn {
+		font-size: 18px;
 	}
 }
