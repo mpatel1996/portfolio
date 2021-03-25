@@ -299,9 +299,15 @@ textarea {
 	width: 200px;
 	object-fit: contain;
 }
-.resume-dwn {
-	text-align: center;
-	font-size: 26px;
+
+.resume-button{
+	background-color: var(--secondaryText);
+	text-align: center; 
+}
+
+.resume-dn-text{	
+	font-size: 44px;
+	color: var(--mainColor);
 }
 
 .social-links {
@@ -329,7 +335,7 @@ textarea {
 }
 
 .post {
-	border: 1px solid var(--borderColor);
+	/* border: 1px solid var(--borderColor); */
 	-webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
 	box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
@@ -359,7 +365,7 @@ textarea {
 }
 
 .post-intro {
-	height: 160px;
+	height: 190px;
 	color: #4b5156;
 	font-size: 14px;
 	overflow: auto;
@@ -377,9 +383,6 @@ textarea {
 		width: 95%;
 	}
 
-	.email-box {
-		font-size: 22px;
-	}
 }
 
 @media screen and (max-width: 800px) {
@@ -431,8 +434,8 @@ textarea {
 		justify-content: center;
 	}
 
-	.resume-dwn {
-		font-size: 22px;
+	.resume-dn-text{	
+	font-size: 34px;
 	}
 
 	.social-links {
@@ -445,11 +448,13 @@ textarea {
 		/* grid-template-rows: 3em 30em; */
 		grid-template-areas: "social-img" "social-img";
 	}
+
 	.social-links #social_img {
 		height: 200px;
 		width: 200px;
 		object-fit: contain;
 	}
+
 	.email-box {
 		font-size: 22px;
 	}
@@ -510,7 +515,7 @@ textarea {
 		font-size: 18px;
 	}
 
-	.resume-dwn {
-		font-size: 18px;
+	.resume-dn-text{	
+	font-size: 24px;
 	}
 }

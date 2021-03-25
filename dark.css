@@ -100,7 +100,7 @@
 	.right-col {
 		justify-content: center;
 	}
-
+	
 	.social-links {
 		display: grid;
 		justify-content: center;
@@ -115,6 +115,9 @@
 		height: 200px;
 		width: 200px;
 		object-fit: contain;
+	}
+	.email-box {
+		font-size: 22px;
 	}
 }
 
@@ -168,4 +171,9 @@
 	#preview {
 		width: 280px;
 	}
+
+	.email-box {
+		font-size: 18px;
+	}
+
 }
