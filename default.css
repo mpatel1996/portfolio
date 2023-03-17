@@ -126,7 +126,7 @@ textarea {
 		"left-col right-col";
 }
 
-.fixed-button{
+.fixed-button {
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
@@ -314,12 +314,12 @@ textarea {
 	object-fit: contain;
 }
 
-.resume-button{
+.resume-button {
 	background-color: var(--secondaryText);
-	text-align: center; 
+	text-align: center;
 }
 
-.resume-dn-text{	
+.resume-dn-text {
 	font-size: 44px;
 	color: var(--mainColor);
 }
@@ -396,7 +396,6 @@ textarea {
 	.main-container {
 		width: 95%;
 	}
-
 }
 
 @media screen and (max-width: 800px) {
@@ -448,8 +447,8 @@ textarea {
 		justify-content: center;
 	}
 
-	.resume-dn-text{	
-	font-size: 34px;
+	.resume-dn-text {
+		font-size: 34px;
 	}
 
 	.social-links {
@@ -472,7 +471,7 @@ textarea {
 	.email-box {
 		font-size: 22px;
 	}
-	
+
 	#skills {
 		display: flex;
 		flex-direction: column;
@@ -541,12 +540,11 @@ textarea {
 		object-fit: contain;
 	}
 
-
 	.email-box {
 		font-size: 18px;
 	}
 
-	.resume-dn-text{	
-	font-size: 24px;
+	.resume-dn-text {
+		font-size: 24px;
 	}
 }
