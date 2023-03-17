@@ -13,6 +13,7 @@
 	--previewShadow: #111921;
 
 	--buttonColor: #17a2b8;
+	--fixedButtomColor: #eeeeee;
 }
 
 #post-title-text {
@@ -23,6 +24,18 @@
 	color: white;
 	padding: 5px;
 	margin: 0;
+}
+
+.fixed-button{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: var(--fixedButtomColor);
+	color: var(--mainText);
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-decoration: none;
 }
 
 .email-box {

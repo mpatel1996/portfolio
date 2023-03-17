@@ -126,6 +126,19 @@ textarea {
 		"left-col right-col";
 }
 
+.fixed-button{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: var(--buttonColor);
+	color: var(--mainText);
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	z-index: 1;
+}
+
 .nav-wrapper {
 	grid-area: nav-wrapper;
 	border-bottom: 1px solid var(--borderColor);
@@ -284,7 +297,6 @@ textarea {
 
 .about-wrapper {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	gap: 100px;
 }
 
@@ -292,6 +304,8 @@ textarea {
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--previewShadow);
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 #social_img {
@@ -418,7 +432,7 @@ textarea {
 	}
 
 	h6 {
-		font-size: 6px;
+		font-size: 16px;
 	}
 
 	.intro-wrapper {
@@ -458,6 +472,23 @@ textarea {
 	.email-box {
 		font-size: 22px;
 	}
+	
+	#skills {
+		display: flex;
+		flex-direction: column;
+		background-color: var(--previewShadow);
+	}
+
+	#preview-shadow {
+		max-width: 280px;
+		height: 180px;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+
+	#preview {
+		width: 260px;
+	}
 }
 
 @media screen and (max-width: 400px) {
@@ -487,11 +518,11 @@ textarea {
 	}
 
 	h5 {
-		font-size: 12px;
+		font-size: 16px;
 	}
 
 	h6 {
-		font-size: 12px;
+		font-size: 16px;
 	}
 
 	#preview-shadow {
@@ -500,6 +531,9 @@ textarea {
 		padding-left: 10px;
 		padding-top: 10px;
 	}
+	#preview {
+		width: 260px;
+	}
 
 	#social_img {
 		height: 50px;
@@ -507,9 +541,6 @@ textarea {
 		object-fit: contain;
 	}
 
-	#preview {
-		width: 280px;
-	}
 
 	.email-box {
 		font-size: 18px;
