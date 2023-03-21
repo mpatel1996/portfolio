@@ -356,9 +356,17 @@ textarea {
 }
 
 .post-preview {
+	min-height: 300px;
+	max-height: 300px;
+	overflow: auto;
 	background-color: #fff;
 	color: var(--mainText);
 	padding: 15px;
+}
+
+.post-intro {
+	color: #4b5156;
+	font-size: 14px;
 }
 
 .email-box {
@@ -376,13 +384,6 @@ textarea {
 	color: black;
 	padding: 5px;
 	margin: 0;
-}
-
-.post-intro {
-	height: 190px;
-	color: #4b5156;
-	font-size: 14px;
-	overflow: auto;
 }
 
 .thumbnail {
